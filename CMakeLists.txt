@@ -2,8 +2,6 @@ cmake_minimum_required (VERSION 2.8.12)
 
 include (utils.cmake)
 
-disallow_intree_builds()
-
 project (utf8proc C)
 
 # This is the ABI version number, which may differ from the
